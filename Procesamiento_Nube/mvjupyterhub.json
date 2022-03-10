@@ -1,0 +1,91 @@
+{
+    "name": "mvjupyterhub",
+    "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Compute/virtualMachines/mvjupyterhub",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "westeurope",
+    "properties": {
+        "vmId": "25b1ee0c-56a5-4260-9014-2ca45364522b",
+        "hardwareProfile": {
+            "vmSize": "Standard_D2s_v3"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "Canonical",
+                "offer": "UbuntuServer",
+                "sku": "18_04-lts-gen2",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Linux",
+                "name": "mvjupyterhub_OsDisk_1_beb59c0433b44e47a8c49a4b310e238b",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/JUPYTERHUB/providers/Microsoft.Compute/disks/mvjupyterhub_OsDisk_1_beb59c0433b44e47a8c49a4b310e238b"
+                }
+            },
+            "dataDisks": [
+                {
+                    "lun": 0,
+                    "name": "mvjupyterhub_DataDisk_0",
+                    "createOption": "Attach",
+                    "caching": "None",
+                    "managedDisk": {
+                        "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Compute/disks/mvjupyterhub_DataDisk_0"
+                    }
+                }
+            ]
+        },
+        "osProfile": {
+            "computerName": "mvjupyterhub",
+            "adminUsername": "smbyc",
+            "linuxConfiguration": {
+                "disablePasswordAuthentication": false
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/networkInterfaces/mvjupyterhub920"
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true
+            }
+        },
+        "provisioningState": "Succeeded"
+    },
+    "resources": [
+        {
+            "name": "AzureNetworkWatcherExtension",
+            "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Compute/virtualMachines/mvjupyterhub/extensions/AzureNetworkWatcherExtension",
+            "type": "Microsoft.Compute/virtualMachines/extensions",
+            "location": "westeurope",
+            "properties": {
+                "autoUpgradeMinorVersion": true,
+                "provisioningState": "Succeeded",
+                "publisher": "Microsoft.Azure.NetworkWatcher",
+                "type": "NetworkWatcherAgentLinux",
+                "typeHandlerVersion": "1.4",
+                "settings": {}
+            }
+        },
+        {
+            "name": "enablevmaccess",
+            "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Compute/virtualMachines/mvjupyterhub/extensions/enablevmaccess",
+            "type": "Microsoft.Compute/virtualMachines/extensions",
+            "location": "westeurope",
+            "properties": {
+                "autoUpgradeMinorVersion": true,
+                "provisioningState": "Succeeded",
+                "publisher": "Microsoft.OSTCExtensions",
+                "type": "VMAccessForLinux",
+                "typeHandlerVersion": "1.4",
+                "settings": {}
+            }
+        }
+    ]
+}

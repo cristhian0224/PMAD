@@ -1,0 +1,51 @@
+{
+    "name": "jupyterhub-vnet",
+    "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/virtualNetworks/jupyterhub-vnet",
+    "etag": "W/\"87954786-1590-489e-b89d-026751d3c526\"",
+    "type": "Microsoft.Network/virtualNetworks",
+    "location": "westeurope",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "d61504d9-7f83-4765-b9d8-72635b189efe",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.1.0.0/16"
+            ]
+        },
+        "subnets": [
+            {
+                "name": "default",
+                "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/virtualNetworks/jupyterhub-vnet/subnets/default",
+                "etag": "W/\"87954786-1590-489e-b89d-026751d3c526\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefix": "10.1.0.0/24",
+                    "ipConfigurations": [
+                        {
+                            "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/networkInterfaces/mvjupyterhub920/ipConfigurations/ipconfig1"
+                        }
+                    ]
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+                "name": "AzureBastionSubnet",
+                "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/virtualNetworks/jupyterhub-vnet/subnets/AzureBastionSubnet",
+                "etag": "W/\"87954786-1590-489e-b89d-026751d3c526\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefix": "10.1.1.0/26",
+                    "routeTable": {
+                        "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/routeTables/_e41f87a2_AZBST_RT_1fbd7a34-7067-4b10-bf79-5139f2f98483"
+                    },
+                    "ipConfigurations": [
+                        {
+                            "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/bastionHosts/jupyterhub-vnet-bastion/bastionHostIpConfigurations/IpConf"
+                        }
+                    ]
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ]
+    }
+}

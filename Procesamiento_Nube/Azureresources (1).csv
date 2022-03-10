@@ -1,0 +1,13 @@
+SEP=,
+NOMBRE,TIPO,UBICACIÓN,
+"desktop","Grupo de hosts","West Europe"
+"desktop-DAG","Grupo de aplicaciones","West Europe"
+"jupyterhub-vnet","Red virtual","West Europe"
+"jupyterhub-vnet-bastion","Bastion","West Europe"
+"jupyterhub-vnet-ip","Dirección IP pública","West Europe"
+"mvjupyterhub","Máquina virtual","West Europe"
+"mvjupyterhub-ip","Dirección IP pública","West Europe"
+"mvjupyterhub-nsg","Grupo de seguridad de red","West Europe"
+"mvjupyterhub920","Interfaz de red","West Europe"
+"mvjupyterhub_DataDisk_0","Disco","West Europe"
+"mvjupyterhub_OsDisk_1_beb59c0433b44e47a8c49a4b310e238b","Disco","West Europe"

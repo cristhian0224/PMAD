@@ -1,0 +1,26 @@
+{
+    "name": "mvjupyterhub-ip",
+    "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/publicIPAddresses/mvjupyterhub-ip",
+    "etag": "W/\"0dc267b9-61b5-44b2-8116-0c347a76cb45\"",
+    "location": "westeurope",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "f752f8db-a880-4a12-ab0c-ecfa2ae21c16",
+        "ipAddress": "23.101.67.112",
+        "publicIPAddressVersion": "IPv4",
+        "publicIPAllocationMethod": "Static",
+        "idleTimeoutInMinutes": 4,
+        "dnsSettings": {
+            "domainNameLabel": "smbyc1",
+            "fqdn": "smbyc1.westeurope.cloudapp.azure.com"
+        },
+        "ipTags": [],
+        "ipConfiguration": {
+            "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Network/networkInterfaces/mvjupyterhub920/ipConfigurations/ipconfig1"
+        }
+    },
+    "type": "Microsoft.Network/publicIPAddresses",
+    "sku": {
+        "name": "Basic"
+    }
+}

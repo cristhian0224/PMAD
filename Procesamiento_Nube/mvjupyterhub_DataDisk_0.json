@@ -1,0 +1,20 @@
+{
+    "name": "mvjupyterhub_DataDisk_0",
+    "id": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Compute/disks/mvjupyterhub_DataDisk_0",
+    "type": "Microsoft.Compute/disks",
+    "location": "westeurope",
+    "managedBy": "/subscriptions/6a122c4b-5a4c-46d4-9ad3-7ddcd67d317a/resourceGroups/jupyterhub/providers/Microsoft.Compute/virtualMachines/mvjupyterhub",
+    "sku": {
+        "name": "Premium_LRS",
+        "tier": "Premium"
+    },
+    "properties": {
+        "creationData": {
+            "createOption": "Empty"
+        },
+        "diskSizeGB": 1024,
+        "timeCreated": "2021-11-18T17:45:01.7800814+00:00",
+        "provisioningState": "Succeeded",
+        "diskState": "Reserved"
+    }
+}
