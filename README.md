@@ -10,5 +10,5 @@ El propósito de este estudio es la propuesta de la optimización del sistema de
 ![1_Tesis_alertas](https://user-images.githubusercontent.com/18450115/158295645-46055d55-ba38-4654-8698-a110f04b87f6.jpg)
 
 
-![Geovisor](https://user-images.githubusercontent.com/18450115/159735744-2fc2dd00-66ce-4bd3-b5bc-fa6462ad75be.JPG)(https://htmlpreview.github.io/?https://github.com/cristhian0224/PMAD/blob/main/Geovisor.html)
+![Geovisor](https://user-images.githubusercontent.com/18450115/159735744-2fc2dd00-66ce-4bd3-b5bc-fa6462ad75be.JPG)https://htmlpreview.github.io/?https://github.com/cristhian0224/PMAD/blob/main/Geovisor.html
 
