@@ -12,6 +12,9 @@ El propósito de este estudio es la propuesta de la optimización del sistema de
 
 <iframe width="100%" height="520" frameborder="0" src="https://cristhian0224.carto.com/builder/155302f5-f396-4a2d-923d-107c1a17b365/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
+https://cristhian0224.carto.com/builder/155302f5-f396-4a2d-923d-107c1a17b365/embed
+
+
 
 ### SAR
 * 1
