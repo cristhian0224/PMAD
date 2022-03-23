@@ -14,7 +14,7 @@ El propósito de este estudio es la propuesta de la optimización del sistema de
 
 https://cristhian0224.carto.com/builder/155302f5-f396-4a2d-923d-107c1a17b365/embed
 
-https://htmlpreview.github.io/?https://github.com/cristhian0224/PMAD/blob/main/Geovisor.html
+![1_Tesis_alertas](https://htmlpreview.github.io/?https://github.com/cristhian0224/PMAD/blob/main/Geovisor.html)
 
 ### SAR
 * 1
