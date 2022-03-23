@@ -10,20 +10,5 @@ El propósito de este estudio es la propuesta de la optimización del sistema de
 ![1_Tesis_alertas](https://user-images.githubusercontent.com/18450115/158295645-46055d55-ba38-4654-8698-a110f04b87f6.jpg)
 
 
-<iframe width="100%" height="520" frameborder="0" src="https://cristhian0224.carto.com/builder/155302f5-f396-4a2d-923d-107c1a17b365/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-https://cristhian0224.carto.com/builder/155302f5-f396-4a2d-923d-107c1a17b365/embed
-
-![https://cristhian0224.carto.com/builder/155302f5-f396-4a2d-923d-107c1a17b365/embed](https://htmlpreview.github.io/?https://github.com/cristhian0224/PMAD/blob/main/Geovisor.html)
-
 ![Geovisor](https://user-images.githubusercontent.com/18450115/159735744-2fc2dd00-66ce-4bd3-b5bc-fa6462ad75be.JPG)(https://htmlpreview.github.io/?https://github.com/cristhian0224/PMAD/blob/main/Geovisor.html)
 
-
-### SAR
-* 1
-
-### OPTICO 
-** 2
-
-### ACTORES
-/*2/
